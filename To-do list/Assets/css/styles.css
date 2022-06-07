@@ -1,0 +1,87 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@MACROSANN 
+stebsnusch
+/
+basecamp-javascript
+Public
+Code
+Issues
+6
+Pull requests
+1
+Actions
+Projects
+Wiki
+Security
+Insights
+basecamp-javascript/introducao-ao-javascript/to-do list/assets/styles.css
+@stebsnusch
+stebsnusch adding new files
+Latest commit 59e6209 on 21 Apr 2021
+ History
+ 1 contributor
+44 lines (37 sloc)  737 Bytes
+   
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  border: 1px solid rgb(105, 197, 255);
+  border-radius: 5px;
+  background-color: rgb(227, 248, 255);
+  color: rgb(105, 197, 255);
+  text-align: center;
+  padding: 5px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: grey;
+}
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
